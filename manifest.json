@@ -1,0 +1,26 @@
+{
+  "name": "CryptoBatz Bite Checker",
+  "description": "Shows on OpenSea which CryptoBatz have already used their bite",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/biteChecker16.png",
+      "32": "/images/biteChecker32.png",
+      "48": "/images/biteChecker48.png",
+      "128": "/images/biteChecker128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/biteChecker16.png",
+    "32": "/images/biteChecker32.png",
+    "48": "/images/biteChecker48.png",
+    "128": "/images/biteChecker128.png"
+  },
+  "content_scripts": [{
+    "matches": ["https://opensea.io/collection/cryptobatz-by-ozzy-osbourne*"], 
+    "js": ["axios.min.js", "biteChecker.js"]
+  }]
+}
