@@ -3,7 +3,7 @@ Version 0.0.1
 
 Disclaimers
 ------------------------------------
-I in no way guarantee this software to provide accurate results.  I can not be held liably in any way for any side effects encountered from your use of this software.  **By using this software you agree that you do so by your own accord and at your own risk.**
+I in no way guarantee this software to provide accurate results.  I can not be held liable in any way for any side effects encountered from your use of this software.  **By using this software you agree that you do so by your own accord and at your own risk.**
 
 Always check the official bite checker at [https://www.cryptobatz.com/bite-checker](https://www.cryptobatz.com/bite-checker) to ensure accurate status before taking any actions based upon the information given by this utility.
 
